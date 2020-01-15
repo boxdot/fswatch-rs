@@ -1,0 +1,13 @@
+[package]
+name = "fswatch-sys"
+version = "0.1.0"
+authors = ["boxdot <d@zerovolt.org>"]
+edition = "2018"
+license = "GPL-3.0"
+links = "fswatch"
+build = "build.rs"
+
+[dependencies]
+
+[build-dependencies]
+cc = "1.0.50"
